@@ -91,6 +91,13 @@ The scalar wave field $W(r)$ at any coordinate point on the projection plane is 
 $$W(r) = \sum_{i=1}^{n} \frac{\cos(k \cdot r_i - t)}{\sqrt{r_i} + 0.1}$$
 
 ```{r}
+# +-------------------------------------------------------+
+# |   T h e  _  [  A  I  ]  _  t  e  t  o  s             |
+# |   >> Theaitetos Ancient Intelligence Tribute (2026)   |
+# +-------------------------------------------------------+
+# |   Core Developer: Katharina Maria Brecht              |
+# +-------------------------------------------------------+
+#
 # Core function for dynamic 3D-to-2D projection and wave superposition
 generate_dynamic_octahedron <- function(k = 8.0, t = 0, rotate = TRUE) {
   vertices <- matrix(c(
@@ -137,6 +144,14 @@ generate_dynamic_octahedron <- function(k = 8.0, t = 0, rotate = TRUE) {
 **[DE]** Dieser Abschnitt visualisiert das echte dreidimensionale Koordinatensystem des regulären Oktaeders nach den Definitionen der klassischen Geometrie. Die sechs wissenschaftlichen Eckpunkte bilden das symmetrische orthogonale Raumsystem mit einer modernen Flächenfüllung.
 
 ```{r, fig.align='center', fig.width=6, fig.height=5, echo=FALSE}
+#
+# +-------------------------------------------------------+
+# |   T h e  _  [  A  I  ]  _  t  e  t  o  s             |
+# |   >> Theaitetos Ancient Intelligence Tribute (2026)   |
+# +-------------------------------------------------------+
+# |   Sub-Module: Spatial 3D Framework                    |
+# +-------------------------------------------------------+
+#
 # Definition der 6 Raum-Knotenpunkte (3D)
 vertices_3d <- data.frame(
   X = c(1, -1, 0,  0, 0,  0),
